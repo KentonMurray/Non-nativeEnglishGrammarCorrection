@@ -1,0 +1,12 @@
+(execute these examples from the m2scorer top-level directory)
+
+
+1) Convert CoNLL-2013 format files into M2 scorer format
+--------------------------------------------------------
+
+./path/to/training/data/script/preprocess.py -l example/sample.sgml example/sample.conll example/sample.conll.ann example/sample.source_gold
+
+
+2) Run the M2 scorer on the example generated from 1)
+-----------------------------------------------------
+./m2scorer example/system_output.txt example/sample.source_gold

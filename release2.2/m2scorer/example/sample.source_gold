@@ -1,0 +1,89 @@
+S CREATING A HABITABLE ENVIRONMENT
+
+S Humans have many basic needs and one of them is to have an environment that can sustain their lives .
+
+S Our current population is 6 billion people and it is still growing exponentially .
+
+S This will , if not already , caused problems as there are very limited spaces for us .
+A 7 8|||Vform|||cause|||REQUIRED|||-NONE-|||0
+A 14 15|||Nn|||space|||REQUIRED|||-NONE-|||0
+A 11 12|||SVA|||is|||REQUIRED|||-NONE-|||0
+
+S The solution can be obtain by using technology to achieve a better usage of space that we have and resolve the problems in lands that inhospitable such as desserts and swamps .
+A 4 5|||Vform|||obtained|||REQUIRED|||-NONE-|||0
+A 22 23|||Prep|||of|||REQUIRED|||-NONE-|||0
+A 24 26|||V0|||that are inhospitable|||REQUIRED|||-NONE-|||0
+
+S As the number of people grows , the need of habitable environment is unquestionably essential .
+A 9 10|||Prep|||for|||REQUIRED|||-NONE-|||0
+A 14 15|||Wci|||increasing|||REQUIRED|||-NONE-|||0
+
+S In this era , Engineering designs can help to provide more habitable accommodation by designing a stronger material so it 's possible to create a taller and safer building , a better and efficient sanitation system to prevent disease , and also by designing a way to change the condition of the inhabitable environment .
+A 4 5|||Mec|||engineering|||REQUIRED|||-NONE-|||0
+A 12 13|||Wci|||environment|||REQUIRED|||-NONE-|||0
+A 15 16|||ArtOrDet||||||REQUIRED|||-NONE-|||0
+A 23 24|||Wci|||build|||REQUIRED|||-NONE-|||0
+
+S Engineers design products or systems that meet human needs .
+
+S One current human need that should be given priority is the search for renewable resources .
+
+S Everywhere in the world , fuel is used extensively .
+
+S From large scale power generators to the basic cooking at our homes , fuel is essential for all of these to happen and work .
+
+S Research had shown that fuel consumption had increased twenty percent over the last decade , and had projected that the depletion of fuels is drawing .
+A 1 2|||Vt|||has|||REQUIRED|||-NONE-|||0
+A 6 7|||Vt|||has|||REQUIRED|||-NONE-|||0
+A 16 17|||Vt|||has|||REQUIRED|||-NONE-|||0
+A 24 25|||Wci|||drawing near|||REQUIRED|||-NONE-|||0
+
+S In addition , burning of fuels emit various harmful gases pollute our fragile environment .
+A 6 7|||SVA|||emits|||REQUIRED|||-NONE-|||0
+A 10 11|||Ssub|||which pollute|||REQUIRED|||-NONE-|||0
+
+S These green house gases are the main cause to worldwide global warming which give rise to further catastrophes such as the rise in global temperature etc .
+A 8 9|||Prep|||of|||REQUIRED|||-NONE-|||0
+A 13 14|||SVA|||gives|||REQUIRED|||-NONE-|||0
+
+S This had shown that the engineering design process is essential in solving problems and it ensures that the problem is thoroughly looked into and ensure that the engineers are generating ideas that target the main problem , the depletion and harmful fuel .
+A 1 2|||Vt|||has|||REQUIRED|||-NONE-|||0
+A 12 13|||Mec|||problems,|||REQUIRED|||-NONE-|||0
+A 24 25|||Rloc-||||||REQUIRED|||-NONE-|||0
+A 32 33|||Wci|||address|||REQUIRED|||-NONE-|||0
+A 38 39|||Wci|||depletion of fuels|||REQUIRED|||-NONE-|||0
+A 40 42|||Wci|||the emission of harmful gages|||REQUIRED|||-NONE-|||0
+
+S The process of developing a new product based on innovation is not an easy task for the innovators .
+A 16 17|||ArtOrDet||||||REQUIRED|||-NONE-|||0
+
+S The innovators , who are normally work under Research and Development department , have to recognize the needs from the public or through research , are require to spend countless days and nights to understand the problems , to produce solutions to the problems , to convert the solutions into practical products and to commercialize them .
+A 0 2|||ArtOrDet|||Innovators|||REQUIRED|||-NONE-|||0
+A 4 5|||Rloc-||||||REQUIRED|||-NONE-|||0
+A 7 8|||Prep|||with|||REQUIRED|||-NONE-|||0
+A 8 9|||ArtOrDet|||a Research|||REQUIRED|||-NONE-|||0
+A 26 27|||Vform|||required|||REQUIRED|||-NONE-|||0
+A 25 26|||Trans|||and are required|||REQUIRED|||-NONE-|||0
+
+S By diffusion and adoption of the innovation products by the public or specific users , the innovators have to face the consequences .
+A 15 16|||ArtOrDet||||||REQUIRED|||-NONE-|||0
+A 0 2|||Wci|||Through distribution|||REQUIRED|||-NONE-|||0
+
+S These are not the only challenges that the innovators are going to deal with .
+A 7 8|||ArtOrDet||||||REQUIRED|||-NONE-|||0
+
+S In order to process from the initial stage of innovation development to the final stage , the most important issue is to have a huge sum of fund for development and commercial purposes .
+A 3 4|||Wci|||proceed|||REQUIRED|||-NONE-|||0
+
+S So , the manufacture company , for example , the company that the innovators are working for , is one of the major investors that is providing the fund .
+A 12 13|||ArtOrDet||||||REQUIRED|||-NONE-|||0
+
+S In brief , innovators have to face many challenges when they want to develop the products .
+A 14 15|||ArtOrDet|||new|||REQUIRED|||-NONE-|||0
+
+S They have to obtain fund from the investors in order to develop their innovation prototypes and require help from the marketing department to have their innovation products for sales in the marketplace .
+A 6 7|||ArtOrDet||||||REQUIRED|||-NONE-|||0
+
+S However , these procedures might become another challenges for the innovators .
+A 7 8|||Nn|||challenge|||REQUIRED|||-NONE-|||0
+

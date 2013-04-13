@@ -1,0 +1,6 @@
+S The cat sat at mat .
+A 3 4|||RT|||on|||REQUIRED|||-NONE-|||0
+A 4 4|||MD|||the||a|||REQUIRED|||-NONE-|||0
+
+S The dog .
+A 1 2|||FN|||dogs|||REQUIRED|||-NONE-|||0
