@@ -7,6 +7,9 @@ from classifier.artordet import ArtOrDetClassifier
 
 
 def parse_input(filename):
+    docid = []
+    pid = []
+    sid = []
     tokens = []
     poss = []
     dpheads = []
@@ -17,18 +20,27 @@ def parse_input(filename):
         for line in f:
             columns = line.strip().split('\t')
             if len(columns) < 3:
-                sentence = Sentence(tokens=tokens,
+                sentence = Sentence(docid=docid,
+                                    pid=pid,
+                                    sid=sid,
+                                    tokens=tokens,
                                     poss=poss,
                                     dpheads=dpheads,
                                     dprels=dprels,
                                     synts=synts)
                 yield sentence
+                docid = []
+                pid = []
+                sid = []
                 tokens = []
                 poss = []
                 dpheads = []
                 dprels = []
                 synts = []
             else:
+                docid.append(columns[1])
+                pid.append(columns[2])
+                sid.append(columns[3])
                 tokens.append(columns[4])
                 poss.append(columns[5])
                 dpheads.append(columns[6])
@@ -45,6 +57,7 @@ def main():
     clf = ArtOrDetClassifier()
     for sentence in parse_input(args.train):
         for i, word in enumerate(sentence):
+            # load label from label file
             print clf.generate_features(sentence, i)
         break
 

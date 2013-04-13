@@ -2,7 +2,7 @@
 
 
 class Sentence:
-    def __init__(self, tokens=[], poss=[], dpheads=[], dprels=[], synts=[]):
+    def __init__(self, docid, pid, sid, tokens=[], poss=[], dpheads=[], dprels=[], synts=[]):
         assert(len(tokens) == len(poss) == len(dpheads) ==
                len(dprels) == len(synts))
         self.tokens = tokens

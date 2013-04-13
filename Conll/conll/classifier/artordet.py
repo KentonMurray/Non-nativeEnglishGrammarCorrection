@@ -11,4 +11,6 @@ class ArtOrDetClassifier(BaseClassifier):
         self.feature_funcs = [
             feature.is_first_word,
             feature.is_last_word,
+            feature.is_det,
+            feature.is_nnp,
         ]

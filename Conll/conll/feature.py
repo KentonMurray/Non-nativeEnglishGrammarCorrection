@@ -14,3 +14,9 @@ def is_first_word(sentence, position):
 
 def is_last_word(sentence, position):
     return [('isLastWord', int(position == len(sentence) - 1))]
+
+def is_det(sentence, position):
+    return [('isDet', int( "DET" == sentence.poss[position]))]
+
+def is_nnp(sentence, position):
+    return [('isNnp', int( "NNP" == sentence.poss[position]))]
