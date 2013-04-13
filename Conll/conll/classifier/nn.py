@@ -3,6 +3,7 @@
 from conll.classifier.base import BaseClassifier
 import conll.feature as feature
 
+
 class NnClassifier(BaseClassifier):
     def __init__(self):
         super(NnClassifier, self).__init__()
@@ -11,4 +12,3 @@ class NnClassifier(BaseClassifier):
             feature.is_first_word,
             feature.is_last_word,
         ]
-

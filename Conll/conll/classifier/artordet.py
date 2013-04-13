@@ -3,6 +3,7 @@
 from conll.classifier.base import BaseClassifier
 import conll.feature as feature
 
+
 class ArtOrDetClassifier(BaseClassifier):
     def __init__(self):
         super(ArtOrDetClassifier, self).__init__()
@@ -11,4 +12,3 @@ class ArtOrDetClassifier(BaseClassifier):
             feature.is_first_word,
             feature.is_last_word,
         ]
-
