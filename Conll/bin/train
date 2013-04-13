@@ -1,0 +1,52 @@
+#!/usr/bin/env python
+
+import argparse
+
+from conll.sentence import Sentence
+from conll.classifier.artordet import ArtOrDetClassifier
+
+
+def parse_input(filename):
+    tokens = []
+    poss = []
+    dpheads = []
+    dprels = []
+    synts = []
+
+    with open(filename, 'r') as f:
+        for line in f:
+            columns = line.strip().split('\t')
+            if len(columns) < 3:
+                sentence = Sentence(tokens=tokens,
+                                    poss=poss,
+                                    dpheads=dpheads,
+                                    dprels=dprels,
+                                    synts=synts)
+                yield sentence
+                tokens = []
+                poss = []
+                dpheads = []
+                dprels = []
+                synts = []
+            else:
+                tokens.append(columns[4])
+                poss.append(columns[5])
+                dpheads.append(columns[6])
+                dprels.append(columns[7])
+                synts.append(columns[8])
+
+
+def main():
+    parser = argparse.ArgumentParser(description='Train model')
+    parser.add_argument('--train', help='path to conll13st-preprocessed.conll',
+                        required=True)
+    args = parser.parse_args()
+
+    clf = ArtOrDetClassifier()
+    for sentence in parse_input(args.train):
+        for i, word in enumerate(sentence):
+            print clf.generate_features(sentence, i)
+        break
+
+if __name__ == '__main__':
+    main()
