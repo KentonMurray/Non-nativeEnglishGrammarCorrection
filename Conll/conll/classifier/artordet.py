@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
-from conll.classifier.base import BaseClassifier
-import conll.feature as feature
+from classifier.base import BaseClassifier
+import feature as feature
 
 
 class ArtOrDetClassifier(BaseClassifier):
